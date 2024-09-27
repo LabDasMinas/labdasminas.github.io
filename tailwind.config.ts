@@ -12,7 +12,8 @@ const config: Config = {
         escuroLab: "#262833",
         rosaLab: "#D05D81",
         verdeLab: "#ADCA87",
-        roxoLab: "#7E628D"
+        roxoLab: "#7E628D",
+        white: "#fff"
       },
     },
   },
