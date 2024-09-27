@@ -1,4 +1,4 @@
-import ComoColaborar from "./components/o-que-fazemos";
+import ComoColaborar from "./components/ComoColaborar";
 
 export default function Home() {
   return (
