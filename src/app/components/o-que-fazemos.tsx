@@ -16,7 +16,7 @@ const content = [
 ]
 
 
-export default function OqueFazemosSection() {
+export default function ComoColaborar() {
   return (
     <section className="w-full flex flex-col items-center ">
 
