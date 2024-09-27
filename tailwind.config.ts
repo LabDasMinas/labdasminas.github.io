@@ -15,6 +15,9 @@ const config: Config = {
         roxoLab: "#7E628D",
         white: "#fff"
       },
+      backgroundImage: {
+        'roxo-gradient': 'linear-gradient(180deg, #7E628D 0%, #6F537F 62%, #593C69 100%)',
+      },
     },
   },
   plugins: [],
