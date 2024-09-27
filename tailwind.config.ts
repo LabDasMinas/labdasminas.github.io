@@ -9,8 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        escuroLab: "#262833",
+        rosaLab: "#D05D81",
+        verdeLab: "#ADCA87",
+        roxoLab: "#7E628D"
       },
     },
   },
