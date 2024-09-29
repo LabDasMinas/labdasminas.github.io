@@ -3,6 +3,7 @@ import Oficinas from "./components/Oficinas";
 import Produtos from "./components/Produtos";
 import Colaborar from "./components/Colaborar";
 import OQueFazemos from "./components/OQueFazemos";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Oficinas />
       <Colaborar />
       <Produtos />
+      <Footer />
     </div>
   );
 }
