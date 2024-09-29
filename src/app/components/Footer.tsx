@@ -19,9 +19,13 @@ function RedeSocial({ icon, link }: RedeSocialProps) {
 
 export default function Footer() {
     return (
-        <section className="bg-rosaLab md:flex w-full h-fit text-white p-8 md:p-20">
+        <section className="flex flex-col md:flex-row w-full h-fit text-white px-8 py-16 md:p-20 relative mt-16">
 
-            <div className="flex flex-col flex-grow">
+            <Image src="/footer-wave-pink.svg" fill={true} alt="" className="object-cover object-top z-10"/>
+            <Image src="/footer-wave-green.svg" fill={true} alt="" className="object-cover object-top z-0 -mt-16"/>
+
+            <div className="z-20 w-full flex flex-col md:flex-row">
+                <div className="flex flex-col flex-grow">
                 <h1 className="font-bold "> Lab das minas! </h1>
                 <h2 className="text-sm"> Lugar de mulher é onde ela quiser. </h2>
                 <div className="flex gap-x-2 text-verdeLab pt-4">
@@ -33,7 +37,7 @@ export default function Footer() {
                 <Image src="/usplogo.svg" alt={""} width={39} height={16}/>
                 <p className="text-xs pt-4 md:self-end">Desenvolvido por Lab das Minas</p>
             </div>
-
+            </div>
         </section>
     );
 }
