@@ -10,7 +10,7 @@ interface RedeSocialProps {
 
 function RedeSocial({ icon, link }: RedeSocialProps) {
     return (
-        <a href={link} className="filter drop-shadow-lg bg-white p-3 rounded-full">
+        <a href={link} target="_blank" className="filter drop-shadow-lg bg-white p-3 rounded-full">
             {icon}
         </a>
     );
