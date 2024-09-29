@@ -5,9 +5,10 @@ interface GImageProps extends ImageProps {
 }
 
 const ImageG: React.FC<GImageProps> = ({ src, ...props }) => {
+    const pathway =   process.env.NODE_ENV === "production" ? '/labdasminas' : ''; 
     return (
         <Image
-            src={src}
+            src={pathway+src}
             {...props}
         />
     );
