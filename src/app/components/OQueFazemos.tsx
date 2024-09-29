@@ -1,6 +1,9 @@
+import Image from "@/components/ImageG";
 export default function OQueFazemos() {
     return (
-        <section className="text-center text-white flex flex-col items-center justify-center">
+        <section className="text-center text-white flex flex-col items-center justify-center relative">
+            <Image src="/greenblob-fazemos.svg" fill={true} alt="" className="object-cover object-top z-10 drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]" />
+            
             <p className="text-xl mb-4">O que fazemos?</p>
             <h2 className="text-4xl text-verdeLab font-bold mb-8">O que fazemos?</h2>
             <p className="text-base">Saiba um pouco mais dos nossos principais objetivos e motivações</p>
