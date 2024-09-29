@@ -21,7 +21,7 @@ export default function Footer() {
     return (
         <section className="flex flex-col md:flex-row w-full h-fit text-white px-8 py-16 md:p-20 relative mt-16">
 
-            <Image src="/footer-wave-pink.svg" fill={true} alt="" className="object-cover object-top z-10"/>
+            <Image src="/footer-wave-pink.svg" fill={true} alt="" className="object-cover object-top z-10 drop-shadow-[0_-4px_4px_rgba(0,0,0,0.25)]" />
             <Image src="/footer-wave-green.svg" fill={true} alt="" className="object-cover object-top z-0 -mt-16"/>
 
             <div className="z-20 w-full flex flex-col md:flex-row">
