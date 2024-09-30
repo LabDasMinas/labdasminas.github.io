@@ -9,7 +9,7 @@ export default function Home() {
 
 
   return (
-    <div className="bg-escuroLab min-h-screen h-full">
+    <div className="min-h-screen h-full">
       <Hero />
       <OQueFazemos />
       <Oficinas />
