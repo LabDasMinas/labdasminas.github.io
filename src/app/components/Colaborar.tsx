@@ -18,7 +18,7 @@ const content = [
 
 export default function Colaborar() {
   return (
-    <section className="w-full flex flex-col items-center ">
+    <section className="w-full flex flex-col items-center text-black">
 
         <Image src="/dina-arduino.png" alt="" 
           width={400}
@@ -29,7 +29,7 @@ export default function Colaborar() {
 
       <section className="flex flex-col gap-y-20 py-40 relative  bg-[#F1EFEF]">
         
-        <h2 className="font-bold text-4xl text-escuroLab text-center [text-shadow:_0_2px_4px_rgb(0_0_0_/_40%)]">Como colaborar?</h2>
+        <h2 className="font-bold text-4xl text-center [text-shadow:_0_2px_4px_rgb(0_0_0_/_40%)]">Como colaborar?</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-24 px-8 lg:px-24">
           {
