@@ -2,7 +2,7 @@ import Image from "@/components/ImageG";
 export default function OQueFazemos() {
     return (
 
-        <section className="text-center text-white flex flex-col items-center justify-center relative">
+        <section className="text-center text-white flex flex-col items-center justify-center relative" id="about">
 
                 <Image src="/greenblob-fazemos.svg" width={200} height={200} alt="" className=" absolute -left-12 -bottom-20 -z-10 drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]" />
 
