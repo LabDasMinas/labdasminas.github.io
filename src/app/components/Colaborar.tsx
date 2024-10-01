@@ -18,7 +18,7 @@ const content = [
 
 export default function Colaborar() {
   return (
-    <section className="w-full flex flex-col items-center text-black">
+    <section className="w-full flex flex-col items-center text-black" id="colab">
 
         <Image src="/dina-arduino.png" alt="" 
           width={400}
