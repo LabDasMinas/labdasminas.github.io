@@ -15,7 +15,7 @@ export default function Header() {
 
     const [openMenu, setOpenMenu] = useState(false);
 
-    const handleScroll = (id) => {
+    const handleScroll = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
             element.scrollIntoView({ behavior: 'smooth' });
