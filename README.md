@@ -4,8 +4,7 @@
 
 <h1> Site do Lab das Minas </h1>
 
-[![Website](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://bxcomp.petsieach.com.br/)
-[![PET-SI](https://img.shields.io/badge/Instagram-PET%20SI-darkred)](https://www.instagram.com/petsieach/)
+[![Website](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](https://labdasminas.github.io/)
 
 O **Lab das Minas** é um projeto de pesquisa e extensão da EACH-USP com o foco na inserção de mulheres na Ciência e Tecnologia por meio de oficinas com meninas do ensino fundamental.
 
@@ -75,6 +74,6 @@ O projeto estará rodando localmente no link que aparece no terminal. Geralmente
 
 ## 🫂 Contribuidores
 
-<a href = "https://github.com/petsi-each/bxcomp2024-site/contributors">
-  <img src = "https://contrib.rocks/image?repo=petsi-each/bxcomp2024-site"/>
+<a href = "https://github.com/LabDasMinas/labdasminas.github.io/contributors">
+  <img src = "https://contrib.rocks/image?repo=LabDasMinas/labdasminas.github.io"/>
 </a>
