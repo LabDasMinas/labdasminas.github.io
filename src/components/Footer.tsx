@@ -1,6 +1,5 @@
 import Image from "@/components/ImageG";
-import { LuInstagram } from "react-icons/lu";
-import { LuMail } from "react-icons/lu";
+import { LuInstagram, LuMail, LuLinkedin } from "react-icons/lu";
 
 
 interface RedeSocialProps {
@@ -31,6 +30,7 @@ export default function Footer() {
                 <div className="flex gap-x-2 text-verdeLab pt-4">
                     <RedeSocial icon={<LuInstagram size={20} />} link="https://www.instagram.com/labdasminas/" />
                     <RedeSocial icon={<LuMail size={20} />} link="mailto:labdasminas@gmail.com" />
+                    <RedeSocial icon={<LuLinkedin size={20} />} link="https://www.linkedin.com/company/lab-das-minas" />
                 </div>
             </div>
             <div className="md:flex md:flex-col md:items-end md:justify-between pt-8 md:pt-0">
