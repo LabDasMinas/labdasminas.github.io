@@ -9,7 +9,7 @@ export default function Hero(){
     return (
     <div>
         <Header/>
-        <section className="flex flex-col w-full h-fit text-white px-8 md:p-20 relative mb-8">
+        <section className="flex flex-col w-full h-fit text-white px-8 md:p-20 relative mb-12">
 
         <ImageG src="/header_green.svg" fill={true} alt="" className="object-cover object-bottom z-0 drop-shadow-[0_-4px_4px_rgba(0,0,0,0.25)]" />
         <ImageG src="/header_pink.svg" fill={true} alt="" className="object-cover object-bottom z-1 -mt-16"/>
@@ -39,12 +39,6 @@ export default function Hero(){
                     </div>
 
                 </div>
-
-                {/* <div className="lg:col-span-3 w-full flex justify-center"> */}
-                {/* <ImageG className=" object-contain right-0 bottom-0 h-[210px] lg:h-[550px]" src="/dinaFinal.png" fill={true} alt=""/> */}
-
-                    {/* <ImageG className="absolute right-0 -translate-y-[30%] lg:-translate-y-[80%] 2xl:-translate-y-[60%] h-[210px] lg:h-[550px] w-fit" src="/dinaFinal.png" height={200} width={500} alt=""/> */}
-                {/* </div> */}
                     
             </div>
         </section>
