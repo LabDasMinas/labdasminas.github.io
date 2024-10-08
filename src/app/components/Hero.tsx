@@ -32,9 +32,19 @@ export default function Hero(){
                 </div>
                     
 
-                <div className="lg:col-span-3 w-full flex justify-center">
-                    <ImageG className="absolute right-0 -translate-y-[30%] lg:-translate-y-[80%] 2xl:-translate-y-[60%] h-[210px] lg:h-[550px] w-fit" src="/dinaFinal.png" height={200} width={500} alt=""/>
+                
+                <div className="absolute xl:h-full h-[210px] lg:h-[550px] w-[500px] right-0 bottom-0 -mb-10">
+                    <div className="relative w-full h-full">
+                    <ImageG className="object-right object-scale-down right-0 bottom-0" src="/dinaFinal.png" fill={true} alt=""/>
+                    </div>
+
                 </div>
+
+                {/* <div className="lg:col-span-3 w-full flex justify-center"> */}
+                {/* <ImageG className=" object-contain right-0 bottom-0 h-[210px] lg:h-[550px]" src="/dinaFinal.png" fill={true} alt=""/> */}
+
+                    {/* <ImageG className="absolute right-0 -translate-y-[30%] lg:-translate-y-[80%] 2xl:-translate-y-[60%] h-[210px] lg:h-[550px] w-fit" src="/dinaFinal.png" height={200} width={500} alt=""/> */}
+                {/* </div> */}
                     
             </div>
         </section>
