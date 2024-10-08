@@ -7,8 +7,8 @@ export default function OQueFazemos() {
                 <Image src="/greenblob-fazemos.svg" width={200} height={200} alt="" className=" absolute -left-12 -bottom-20 -z-10 drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]" />
 
 
-            <p className="text-xl mb-4">O que fazemos?</p>
-            <h2 className="text-4xl text-verdeLab font-bold mb-8">O que fazemos?</h2>
+            <p className="text-xl mb-4">Para quê o Lab existe?</p>
+            <h2 className="text-4xl text-verdeLab font-bold mb-8">Nossos objetivos</h2>
             <p className="text-base">Saiba um pouco mais dos nossos principais objetivos e motivações</p>
 
             <div className="flex flex-col lg:flex-row gap-12 p-12 items-center justify-center w-full">
@@ -18,8 +18,10 @@ export default function OQueFazemos() {
                     <div className="size-24 mb-8 relative">
                         <Image src="/fazemos-1.png" fill={true} alt="" />
                     </div>
-                    <h3 className="text-2xl font-semibold">Títualo</h3>
-                    <p className="text-sm break-words text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus urna sapien, convallis non accumsan luctus, luctus vulputate odio. Ut tincidunt, urna quis posuere pretium, nibh lectus pretium tellus, quis placerat orci nunc ac nulla.</p>
+                    <h3 className="text-2xl font-semibold">Incentivar meninas em STEM</h3>
+                    <p className="text-sm break-words text-center">
+                    Ainda hoje, as mulheres representam um pouco mais de 25% dos graduados de cursos na área de STEM. Queremos incentivar as meninas jovens a se interessarem por essas áreas, mostrando-as que são capazes!
+                    </p>
 
                 </div>
 
@@ -27,8 +29,8 @@ export default function OQueFazemos() {
                     <div className="size-24 mb-8 relative">
                         <Image src="/fazemos-3.png" fill={true} alt="" />
                     </div>
-                    <h3 className="text-2xl font-semibold">Título</h3>
-                    <p className="text-sm text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus urna sapien, convallis non accumsan luctus, luctus vulputate odio. Ut tincidunt, urna quis posuere pretium, nibh lectus pretium tellus, quis placerat orci nunc ac nulla.</p>
+                    <h3 className="text-2xl font-semibold">Disseminar conhecimento</h3>
+                    <p className="text-sm text-center">Através de posts no instagram e oficinas, buscamos compartilhar sobre a trajetória de mulheres na área de STEM e conteúdos técnicos que incentivem a curiosidade. Os temas vão de construção de carrinhos eletrônicos até biologia das flores.</p>
 
                 </div>
 
@@ -37,8 +39,10 @@ export default function OQueFazemos() {
                     <div className="size-24 mb-8 relative">
                         <Image src="/fazemos-2.png" fill={true} alt="" />
                     </div>
-                    <h3 className="text-2xl font-semibold">Título</h3>
-                    <p className="text-sm text-left text-ellipsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus urna sapien, convallis non accumsan luctus, luctus vulputate odio. Ut tincidunt, urna quis posuere pretium, nibh lectus pretium tellus, quis placerat orci nunc ac nulla.</p>
+                    <h3 className="text-2xl font-semibold">Criar um ambiente seguro</h3>
+                    <p className="text-sm text-center text-ellipsis">
+                    O grupo é formado apenas por mulheres e atende apenas as meninas das escolas. Nosso objetivo é criar um ambiente acolhedor para fortalecer os laços e contato entre as próprias mulheres, para que sejamos uma rede de apoio!
+                    </p>
 
                 </div>
 
