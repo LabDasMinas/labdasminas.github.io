@@ -9,8 +9,13 @@ export default function Oficinas() {
                 <div className="space-x-2 md:space-x-0 py-10 items-center">
                     <div className="flex flex-col lg:col-span-5 content-center items-center md:items-start">  
 
-                        <h2 className="text-4xl font-bold text-center md:text-left mb-18 md:mb-0">Como as <span className="text-rosaLab">oficinas</span> podem ajudar a sla oq sla oq?</h2>
-                        <p className="space-y-16 my-8 md:space-y-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <h2 className="text-4xl font-bold text-center md:text-left mb-18 md:mb-0">Como e onde as <span className="text-rosaLab">oficinas</span> são realizadas?</h2>
+                        <p className="space-y-16 mt-8 md:space-y-8">
+                            Quinzenalmente, as oficinas são realizadas nas instalações da faculdade <b>EACH (Escola de Artes, Ciências e Humanidades)</b>. Geralmente, possuem a <b>duração de 2 horas</b> de muito aprendizado e mão na massa!
+                        </p>
+                        <p className="space-y-16 mb-8 mt-2 md:space-y-8">
+                            Possuímos um espaço onde guardamos todos os materiais utilizados nas oficinas manuais e onde as meninas de escolas da Zona Leste de São Paulo/SP podem facilmente chegar. Em toda oficina, há <b>distribuição de lanches</b>!
+                        </p>
 
                         <Button text="Vamos colaborar!"/>
                     </div>                

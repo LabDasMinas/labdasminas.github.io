@@ -37,8 +37,15 @@ export default function Produtos() {
                 <div className="space-x-2 md:space-x-0 py-10 items-center">
                     <div className="flex flex-col lg:col-span-5 items-center md:items-end">  
 
-                        <h2 className="text-4xl font-bold text-center md:text-right mb-18 md:mb-0">Não percam os nossos <span className="text-rosaLab">produtinhos</span></h2>
-                        <p className="space-y-16 my-8 md:space-y-8 md:text-right" style={{maxWidth:"400px"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <h2 className="text-4xl font-bold text-center md:text-right mb-18 md:mb-0">Conheçam nossa <span className="text-rosaLab">lojinha!</span></h2>
+                        <p className="space-y-16 my-8 md:space-y-8 md:text-right" style={{maxWidth:"400px"}}>
+                        A Lojinha do Lab das Minas é muito especial, porque nossos produtos são voltados para <b>encorajar e acompanhar as mulheres em suas lutas diárias.</b> Abrimos a Lojinha periodicamente, geralmente no início do ano. 
+
+                        </p>
+                        <br/>
+                        <p className="space-y-16 mb-6 md:space-y-8 md:text-right" style={{maxWidth:"400px"}}>
+                            Vendemos desde <b>bottons, camisetas, até adesivos e ecobags.</b> Tudo com a carinha do Lab :)
+                        </p>
 
                         <Button text="Compre já!"/>
                     </div>                
