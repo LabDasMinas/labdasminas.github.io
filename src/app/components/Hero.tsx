@@ -21,7 +21,9 @@ export default function Hero(){
                         <h1 className=" font-bold text-3xl sm:text-6xl max-w-max">
                             Lab das Minas
                         </h1>
-                        <p className="pt-5 md:pt-5 pb-5 md:pb-9 text-base leading-5 text-justify md:text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p className="pt-5 md:pt-5 pb-5 md:pb-9 text-base leading-5 text-justify md:text-left">
+                            O Lab das Minas é um grupo de pesquisa e extensão da EACH-USP com propósito de incentivar e apoiar meninas e mulheres nas áreas de Ciência e Tecnologia. 
+                        </p>
                     </div>
 
                     <button className="bg-white text-rosaLab rounded-[30px] h-[50px] min-w-[160px] md:h-[60px] md:min-w-[200px] font-medium text-[18px]">

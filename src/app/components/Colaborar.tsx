@@ -2,16 +2,16 @@ import Image from "@/components/ImageG";
 
 const content = [
   {
-    title: "Titulo p ajudar",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting"
+    title: "Divulgação",
+    description: "Compartilhando nosso projeto nas redes sociais nos ajuda muito! Assim, mais meninas podem conhecer o projeto :)"
   },
   {
-    title: "Titulo p ajudar",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting"
+    title: "Parcerias",
+    description: "Se você faz parte de alguma organização ou entidade estudantil e quer fazer alguma parceria de projeto, oficina, post, com o Lab das Minas, ficaremos mais do que felizes em colaborar!"
   },
   {
-    title: "Titulo p ajudar",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting"
+    title: "Lojinha e doações",
+    description: "Sua compra e doação é transformada em investimento na compra de materiais e lanches que preparamos para as meninas nas oficinas!"
   }
 ]
 
